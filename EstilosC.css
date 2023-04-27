@@ -1,0 +1,108 @@
+﻿h1 {
+    background-color: #4D455D;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+}
+.nombre {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    border: 2px solid black;
+}
+body {
+    background-color: #E96479;
+    text-align: right;
+    color: black;
+    justify-content: center;
+}
+.button-style {
+    background-color: #F5E9CF;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px;
+    cursor: pointer;
+    width: 250px;
+    height: 80px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.parrafo1 {
+    background-color: #F5E9CF;
+    font-family: 'Georgia', serif;
+    border: 2px solid black;
+    float: left;
+    width: 70%;
+    padding: 60px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.yo {
+    width: 35%;
+    float: left;
+    margin-right: 10px;
+}
+.welcome {
+    text-align: right;
+    margin-top: 50px;
+}
+.menu {
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.contacto {
+    background-color: #7DB9B6;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.oculto {
+    display: none;
+    text-align: center;
+}
+.contacto1 {
+    background-color: #4D455D;
+    border: 1px;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.inst{
+    width: 20px;
+    height: 20px;
+}
+.face {
+    width: 20px;
+    height: 20px;
+}
+.whats {
+    width: 20px;
+    height: 20px;
+}
+.email {
+    width: 20px;
+    height: 20px;
+}
+.direccion {
+    width: 20px;
+    height: 20px;
+}

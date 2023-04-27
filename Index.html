@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<title>Mi curriculum</title>
+	<link rel="stylesheet" type="text/css" href="EstilosC.css">
+	<script src="alertas.js"></script> 
+</head>
+
+<body>
+	<h1>Currículum Vitae</h1>
+
+	<div class="parrafo1">
+		<p>
+			<img class="yo" src="Yo.jpeg" alt="Mi foto">
+			<span class="welcome">
+				<h1 class="nombre">Azalia Margarita Sánchez Rivera</h1>
+				Bienvenido a mi curriculum. Aquí encontrarás información detallada sobre mi experiencia laboral, educación, habilidades y logros.
+				A lo largo de mi vida, he desarrollado habilidades clave en áreas como la gestión de proyectos, la comunicación efectiva,
+				el liderazgo y la resolución de problemas.
+				<br><br><br><br><br><br>
+				<center><button class="contacto" onclick="mostrarInformacion()">Contacto</button> </center>
+				<div id="informacion" class="oculto">
+					<p>
+
+						<button onclick="mostrarAlerta1()" class="contacto1" onclick="window.open('https://goo.gl/maps/3SUAcpw2iAcQVs5T6')"> <img class="direccion" src="direccion.png" alt="Logo de dirección">Direccion</button>
+						<button onclick="mostrarAlerta2()" class="contacto1" onclick="location.href='mailto:azaliasanchez41@gmail.com?subject=Asunto del mensaje&body=Cuerpo del mensaje'"> <img class="email" src="https://cdn-icons-png.flaticon.com/512/552/552486.png" alt="Icono de email">Email</button>
+						<button onclick="mostrarAlerta3()" class="contacto1" onclick="window.open('https://wa.me/qr/SIUGITA6WJTDA1')"> <img class="whats" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/200px-WhatsApp.svg.png" alt="Icono de WhatsApp">WhatsApp</button>
+						<button onclick="mostrarAlerta4()" class="contacto1" onclick="window.open('https://instagram.com/brooklyn_baby0012?igshid=ZDdkNTZiNTM=')"><img class="inst" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram logo">Instagram</button>
+						<button onclick="mostrarAlerta5()" class="contacto1" onclick="window.open('https://www.facebook.com/azaliamargarita.riverassanchez?mibextid=ZbWKwL')"><img class="face" src="https://cdn-icons-png.flaticon.com/512/179/179319.png" alt="Facebook logo" class="facebook-logo">Facebook</button>
+
+
+					</p>
+				</div>
+
+			</span>
+		</p>
+	</div>
+	<details class="menu">
+		<summary>MENU</summary>
+		<a href="InformacionPersonal.html"><button class="button-style" type="button">Información Personal</button></a><br><br><br>
+		<a href="InformacionProfesional.html"><button class="button-style" type="button">Información Profesional y Proyectos</button></a><br><br><br>
+		<a href="InformacionAcademica.html"><button  class="button-style" type="button">Información Academica</button></a><br><br><br>
+		<a href="InformacionCursos.html"><button class="button-style" type="button">Información Cursos y acreditaciones</button></a><br><br><br>
+	</details>
+
+</body>
+</html>
